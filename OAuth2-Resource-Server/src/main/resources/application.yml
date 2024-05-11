@@ -1,0 +1,13 @@
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+spring:
+  application:
+    name: OAuth2-Resource-Server
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: "http://localhost:9090"
